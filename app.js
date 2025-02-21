@@ -58,7 +58,6 @@ function condicionesIniciales() {
     numeroSecreto = generarNumeroSecreto();
     verificarNumerosJugados();
     numerosJugados.push(numeroSecreto);
-    console.log(numerosJugados);
     asignarTextoElemento('h1', 'Juego del número secreto');
     asignarTextoElemento('p', `Bienvenido al juego del número secreto, tienes ${maximoIntentos} intentos para adivinar el número secreto entre 1 y 10`);
 }
